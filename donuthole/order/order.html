@@ -1,0 +1,63 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>The Donut Hole</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato:wght@300&display=swap');
+</style>
+<link rel="stylesheet" href="../style.css">
+
+<header>
+
+<h1>The Donut Hole: Custom Order</h1>
+
+<p>Build your custom donut and we will have it done and delivered within the hour!</p>
+</header>
+<br>
+<body>
+<form action="finished.html" method="POST">
+
+<fieldset> <legend>  Your Information </legend> </li>
+<ul>
+  <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li>
+  <li><label for="form-address">Address: <input type="text" name="customeraddress" id="form-address"></li>
+  <li><label for="form-number">Telephone Number: <input type="text" name="customernumber" id="form-number"></li>
+  <li><label for="form-email">Email: <input type="text" name="customeremail" id="form-email"></li>
+  <li><label for="form-instructions">Delivery instructions: <br><textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long" id="form-instructions"></textarea></li>
+</ul>
+</fieldset>
+
+<h2>Design Your Dream Donut:</h2> <fieldset>
+
+<legend>Donut specs</legend>
+<fieldset>
+<legend> Type of Donut <em>(Choose one)</em>:</legend>
+<ul>
+  <li><label><input type="radio" name="crust" value="plain">Original/Plain</label></li>
+  <li><label><input type="radio" name="crust" value="glazed">Glazed</label></li>
+  <li><label><input type="radio" name="crust" value="jelly-filled">Jelly Filled</label></li>
+  <li><label><input type="radio" name="crust" value="cinn-bun">Cinnamon Bun</label></li>
+</fieldset>
+</ul>
+<fieldset>
+<legend>Toppings <em>(Choose one)</em>:</legend>
+<ul>
+  <li><label><input type="radio" name="toppings" value="white-frosting">Frosting</label></li>
+  <li><label><input type="radio" name="toppings" value="chocolate">Chocolate</label></li>
+  <li><label><input type="radio" name="toppings" value="strawberry-frosting">Strawberry Frosting</label></li>
+  <li><label><input type="radio" name="toppings" value="sprinkes">Sprinkles</label></li>
+  <li><label><input type="radio" name="toppings" value="sugar">Sugar</label></li>
+
+</ul>
+</fieldset> <fieldset>
+<legend>Number</legend>
+<p>How many donuts:<select name="pizzas" size="1"> <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select><p>
+</fieldset> </fieldset>
+  <p> <input type="submit" value="Place Order"> <input type="Reset"></p>
+
+</form>
+</body>
+</html>

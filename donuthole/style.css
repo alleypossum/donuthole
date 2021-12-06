@@ -1,0 +1,44 @@
+body {
+  font-family: "Comfortaa", serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 0 0;
+  background-color: #EDB8D6;
+  text-align: center;
+}
+header {
+  padding: 2em 1em 1em 2em;
+  text-align: center;
+  background-color: #FECEE9 ;
+}
+ul {
+  text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+  font-size: 50px
+}
+h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-align: center;
+  color: #740644
+}
+h3 {
+  margin-top: 0;
+  padding: 1em 1em 1em 2em;
+  text-align: center;
+  background-color: #CB92B2;
+  text-align: center; }
+.price {
+    font-style: italic;
+  }
+  strong {
+    font-style: italic;
+  }
+  p {
+    text-align: center;
+  }
